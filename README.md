@@ -26,6 +26,11 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Website
+[Mongoose](https://mongoose.nodejs.cn/docs/index.html) mongoose中文文档地址。
+[Nest中文](https://nest.nodejs.cn/) Nest.js中文文档地址。
+[Nest官方](https://docs.nestjs.com/) Nest.js官方地址。
+
 ## Installation
 
 ```bash

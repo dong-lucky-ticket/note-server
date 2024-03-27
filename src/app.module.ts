@@ -4,6 +4,8 @@ import { AppService } from './app.service';
 
 import { MongooseModule } from '@nestjs/mongoose';
 import { CatsModule } from './cats/cats.module';
+import { StatisticModule } from './statistic/statistic.module';
+import { RecordModule } from './record/record.module';
 
 @Module({
   // 同时连接多个数据库
@@ -17,7 +19,9 @@ import { CatsModule } from './cats/cats.module';
   // ],
   imports: [
     MongooseModule.forRoot('mongodb://127.0.0.1:27017/nest'),
-    CatsModule
+    CatsModule,
+    StatisticModule,
+    RecordModule
   ],
   controllers: [AppController],
   providers: [AppService],
